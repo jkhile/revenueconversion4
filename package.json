@@ -1,0 +1,27 @@
+{
+  "name": "revenue-conversion4",
+  "version": "1.0.0",
+  "main": "RevenueConversion.js",
+  "author": "jkhile <jkhile@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-plugin-node": "^4.2.1"
+  },
+  "dependencies": {
+    "async-cache": "^1.1.0",
+    "bluebird": "^3.5.0",
+    "commander": "^2.9.0",
+    "csv": "^1.1.1",
+    "decompress": "^4.0.0",
+    "detect-character-encoding": "^0.3.1",
+    "fs-extra": "^2.1.2",
+    "glob": "^7.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "superagent": "^3.5.0",
+    "tmp": "^0.0.31",
+    "walk": "^2.3.9",
+    "xlsx": "^0.9.3"
+  }
+}
