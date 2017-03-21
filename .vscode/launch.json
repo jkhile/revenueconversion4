@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "node2",
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
                 "-d",
-                "/Users/johnhile/Google Drive/RevenueReports copy/Monthly/FEP"
+                "/Users/johnhile/Google Drive/RevenueReports copy/Monthly/DCM"
             ]
         },
         {
