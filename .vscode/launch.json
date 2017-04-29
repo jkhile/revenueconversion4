@@ -10,8 +10,8 @@
             "name": "Launch Program",
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
-                "-d",
-                "/Users/johnhile/Google Drive/RevenueReports copy/Monthly/DCM"
+                "--company",
+                "DCM"
             ]
         },
         {
