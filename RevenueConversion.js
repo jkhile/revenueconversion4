@@ -1,7 +1,7 @@
 // This is simple command-line interface to the main convertRevenue module.
 // Its use should be temporary until we get an Electron UI interface ready.
 // This module is simple ES5 so that no babel transpilation is necessary.
-const ArgsConfigPrompt = require('@jkhile/args-config-prompt')
+const ArgsConfigPrompt = require('./lib/_argsConfigPrompt')
 const path = require('path')
 
 const {convertRevenue} = require('./lib/convertRevenue')
