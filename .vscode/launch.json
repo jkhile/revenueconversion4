@@ -5,9 +5,43 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node2",
+            "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "protocol": "inspector",
+            "name": "RmFEP",
+            "program": "${workspaceRoot}/removeConverted.js",
+            "args": [
+                "--company",
+                "FEP"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
+            "name": "RmDCM",
+            "program": "${workspaceRoot}/removeConverted.js",
+            "args": [
+                "--company",
+                "DCM"
+            ]
+        },
+        {
+            "type": "node",
+            "protocol": "inspector",
+            "request": "launch",
+            "name": "FEP",
+            "program": "${workspaceRoot}/RevenueConversion.js",
+            "args": [
+                "--company",
+                "FEP"
+            ]
+        },
+        {
+            "type": "node",
+            "protocol": "inspector",
+            "request": "launch",
+            "name": "DCM",
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
                 "--company",

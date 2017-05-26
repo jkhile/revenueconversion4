@@ -12,10 +12,8 @@ function revenueConversion() {
     {name: 'company', alias: 'c', prompt: 'company to operate on, FEP or DCM'}
   ]
   const programArgs = new ArgsConfigPrompt(argOptions, 'fepdcm').resolve()
-  console.log(programArgs)
   const revenueDirectory = path.resolve(programArgs.baseDirectory, `${programArgs.company.toUpperCase()}/RevenueReports`)
   try {
-    console.log('revenueDirectory', revenueDirectory)
     convertRevenue(revenueDirectory)
   } catch (error) {
     console.log('OOPS! An error occurred while running RevenueConversion:')
