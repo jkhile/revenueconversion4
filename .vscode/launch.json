@@ -11,6 +11,8 @@
             "name": "RmFEP",
             "program": "${workspaceRoot}/removeConverted.js",
             "args": [
+                "--baseDirectory",
+                "/Users/johnhile/dev/FinancialData_copy",
                 "--company",
                 "FEP"
             ]
@@ -22,6 +24,8 @@
             "name": "RmDCM",
             "program": "${workspaceRoot}/removeConverted.js",
             "args": [
+                "--baseDirectory",
+                "/Users/johnhile/dev/FinancialData_copy",
                 "--company",
                 "DCM"
             ]
@@ -33,6 +37,8 @@
             "name": "FEP",
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
+                "--baseDirectory",
+                "/Users/johnhile/dev/FinancialData_copy",
                 "--company",
                 "FEP"
             ]
@@ -44,6 +50,8 @@
             "name": "DCM",
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
+                "--baseDirectory",
+                "/Users/johnhile/dev/FinancialData_copy",
                 "--company",
                 "DCM"
             ]
