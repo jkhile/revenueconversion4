@@ -8,6 +8,19 @@
             "type": "node",
             "request": "launch",
             "protocol": "inspector",
+            "name": "check-FEP",
+            "program": "${workspaceRoot}/checkClassMap.js",
+            "args": [
+                "--baseDirectory",
+                "/Users/johnhile/dev/FinancialData_copy",
+                "--company",
+                "FEP"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
             "name": "RmFEP",
             "program": "${workspaceRoot}/removeConverted.js",
             "args": [
