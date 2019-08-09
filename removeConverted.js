@@ -15,7 +15,7 @@ function main() {
     `${programArgs.company.toUpperCase()}/RevenueReports`
   )
   try {
-    const convertedFiles = glob.sync(`${revenueDirectory}/**/*-TPI.*`)
+    const convertedFiles = glob.sync(`${revenueDirectory}/**/*-TPI*.*`)
     R.forEach(f => {
       console.log(`Deleting ${f}`)
       fsExtra.removeSync(f)

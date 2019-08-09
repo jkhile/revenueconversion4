@@ -51,7 +51,7 @@
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
                 "--baseDirectory",
-                "/Users/johnhile/dev/FinancialData_copy",
+                "/Volumes/GoogleDrive/My Drive/FinancialData",
                 "--company",
                 "FEP"
             ]
@@ -64,7 +64,7 @@
             "program": "${workspaceRoot}/RevenueConversion.js",
             "args": [
                 "--baseDirectory",
-                "/Users/johnhile/dev/FinancialData_copy",
+                "/Volumes/GoogleDrive/My Drive/FinancialData",
                 "--company",
                 "DCM"
             ]
