@@ -21,7 +21,7 @@ module.exports = {
     curly: ['error', 'all'],
     'no-multiple-empty-lines': ['error', { max: 1 }],
     'no-console': 'off',
-    'node/no-unsupported-features': ['error', { version: 7, ignores: ['asyncAwait'] }],
+    'node/no-unsupported-features': ['error', { version: 12, ignores: ['asyncAwait'] }],
     'node/no-unpublished-require': ['error', { 'allowModules': ['tap'] }]
   }
 };
