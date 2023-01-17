@@ -31,7 +31,6 @@
     {
       "type": "node",
       "request": "launch",
-      "protocol": "inspector",
       "name": "RmDCM",
       "program": "${workspaceRoot}/removeConverted.js",
       "args": [
@@ -44,11 +43,23 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "FEP",
+      "name": "FEP test data",
       "program": "${workspaceRoot}/RevenueConversion.js",
       "args": [
         "--baseDirectory",
         "/Volumes/GoogleDrive/Shared drives/FEP_Financials/FinancialDataTest",
+        "--company",
+        "FEP"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "FEP live data",
+      "program": "${workspaceRoot}/RevenueConversion.js",
+      "args": [
+        "--baseDirectory",
+        "/Volumes/GoogleDrive/Shared drives/FEP_Financials/FinancialData",
         "--company",
         "FEP"
       ]
