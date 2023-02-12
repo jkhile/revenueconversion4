@@ -11,7 +11,7 @@
       "program": "${workspaceRoot}/checkClassMap.js",
       "args": [
         "--baseDirectory",
-        "/Volumes/GoogleDrive/Shared drives/FEP_Financials/FinancialDataTest",
+        "/Users/johnhile/Library/CloudStorage/GoogleDrive-john.hile@frontedgepublishing.com/Shared drives/FEP_Financials/FinancialData",
         "--company",
         "FEP"
       ]
@@ -47,7 +47,7 @@
       "program": "${workspaceRoot}/RevenueConversion.js",
       "args": [
         "--baseDirectory",
-        "/Volumes/GoogleDrive/Shared drives/FEP_Financials/FinancialDataTest",
+        "/Users/johnhile/Library/CloudStorage/GoogleDrive-john.hile@frontedgepublishing.com/Shared drives/FEP_Financials/FinancialData",
         "--company",
         "FEP"
       ]
@@ -59,7 +59,7 @@
       "program": "${workspaceRoot}/RevenueConversion.js",
       "args": [
         "--baseDirectory",
-        "/Volumes/GoogleDrive/Shared drives/FEP_Financials/FinancialData",
+        "/Users/johnhile/Library/CloudStorage/GoogleDrive-john.hile@frontedgepublishing.com/Shared drives/FEP_Financials/FinancialData",
         "--company",
         "FEP"
       ]
@@ -71,7 +71,7 @@
       "program": "${workspaceRoot}/RevenueConversion.js",
       "args": [
         "--baseDirectory",
-        "/Volumes/GoogleDrive/My Drive/FinancialData",
+        "/Users/johnhile/Library/CloudStorage/GoogleDrive-john.hile@frontedgepublishing.com/Shared drives/FEP_Financials/FinancialData",
         "--company",
         "DCM"
       ]
